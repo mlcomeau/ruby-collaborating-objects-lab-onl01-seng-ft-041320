@@ -17,14 +17,11 @@ class Artist
     song.artist = self
   end
 
-
-
   def songs
     @songs
   end
 
   def self.find_or_create_by_name(name)
-    self.detect.all {|artist| artist.name == name || Artist.new(name)}
   end
 
   def print_songs
