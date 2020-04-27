@@ -5,7 +5,7 @@ class Artist
   end
 
   def self.all
-    Artist.all
+  
   end
 
   def add_song(song)
