@@ -8,14 +8,14 @@ class Artist
 
   def add_song(song)
     @@songs << song
-    song.artist = self 
+    song.artist = self
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 
-  
+
   def songs
     self.songs.select {|song| song.artist == self}
   end
