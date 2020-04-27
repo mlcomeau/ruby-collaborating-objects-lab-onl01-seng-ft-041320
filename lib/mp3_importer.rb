@@ -3,12 +3,12 @@ class MP3Importer
     @path = filepath
   end
 
-  def files 
+  def files
   end
 
-  def import 
+  def import
   end
-  
-    
-    
+
+
+
 end
